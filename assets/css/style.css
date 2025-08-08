@@ -13117,7 +13117,7 @@ div#mCSB_1_container{
 
 /* Navigation link colors - ensure they're visible on blue background */
 .main-menu .navigation > li > a{
-  color: #fff; /* White text on blue background */
+  color: #000; /* White text on blue background */
 }
 
 .main-menu .navigation > li > a:hover{
