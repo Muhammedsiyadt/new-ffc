@@ -242,12 +242,7 @@ img {
   border: 1px solid #000;
 }
 
-.npa-btn-one:hover:after{
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-}
+
 
 .npa-btn-one:after{
   content: "";
