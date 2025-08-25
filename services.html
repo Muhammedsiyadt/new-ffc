@@ -188,653 +188,602 @@
 <!--End Page Title-->
 
 
-       <div class="services-container">
-        <section class="services-section" style="
-            padding: 100px 0;
-            background: linear-gradient(135deg, #0f1c31 0%, #152642 100%);
-            font-family: 'Poppins', sans-serif;
+      <section class="services-section">
+        <!-- Background Elements -->
+        <div class="bg-pattern"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <div class="header-badge">
+                    <span>Premium Solutions</span>
+                </div>
+                <h2 class="main-title">
+                    Exceptional Services
+                    <span class="title-highlight">Tailored for You</span>
+                </h2>
+                <p class="section-subtitle">
+                    Discover our comprehensive range of premium services designed to exceed expectations and deliver outstanding results
+                </p>
+            </div>
+
+            <!-- Services List -->
+            <div class="services-list">
+                <!-- Service 1 -->
+                <div class="service-item" data-service="construction">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Construction Excellence</h3>
+                        <p class="service-description">
+                            We bring architectural visions to life with precision engineering and innovative construction techniques. From foundation to finishing, every detail is crafted with excellence and built to last generations.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature-tag">Quality Materials</span>
+                            <span class="feature-tag">Expert Craftsmanship</span>
+                            <span class="feature-tag">Timely Delivery</span>
+                        </div>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="service-bg-effect"></div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-item" data-service="realestate">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Real Estate Solutions</h3>
+                        <p class="service-description">
+                            Navigate the property market with confidence through our expert guidance. We provide comprehensive real estate services with deep market insights and transparent processes for successful investments.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature-tag">Market Analysis</span>
+                            <span class="feature-tag">Investment Advisory</span>
+                            <span class="feature-tag">Legal Support</span>
+                        </div>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="service-bg-effect"></div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-item" data-service="interior">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Interior Design</h3>
+                        <p class="service-description">
+                            Transform your spaces into stunning environments that reflect your personality and lifestyle. Our creative designers blend aesthetics with functionality to create interiors that inspire and delight.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature-tag">Custom Design</span>
+                            <span class="feature-tag">Space Planning</span>
+                            <span class="feature-tag">Premium Finishes</span>
+                        </div>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="service-bg-effect"></div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-item" data-service="documentation">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Documentation Services</h3>
+                        <p class="service-description">
+                            Simplify complex legal processes with our comprehensive documentation services. We handle all regulatory requirements, from initial paperwork to final registrations, ensuring compliance and peace of mind.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature-tag">Legal Compliance</span>
+                            <span class="feature-tag">Fast Processing</span>
+                            <span class="feature-tag">Expert Guidance</span>
+                        </div>
+                    </div>
+                    <div class="service-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="service-bg-effect"></div>
+                </div>
+            </div>
+        </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        .services-section {
             position: relative;
+            background: linear-gradient(135deg, #5982ea 0%, #1a1f3a 50%, #000000b0 100%);
+            min-height: 100vh;
+            padding: 120px 0;
             overflow: hidden;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
-        ">
-            <!-- Animated Background Elements -->
-            <div class="bg-animation" style="
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: 1;
-            ">
-                <div style="
-                    position: absolute;
-                    top: 10%;
-                    left: 5%;
-                    width: 300px;
-                    height: 300px;
-                    border-radius: 50%;
-                    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
-                    opacity: 0.15;
-                    animation: float 15s infinite ease-in-out;
-                    filter: blur(15px);
-                "></div>
-                <div style="
-                    position: absolute;
-                    bottom: 10%;
-                    right: 5%;
-                    width: 400px;
-                    height: 400px;
-                    border-radius: 50%;
-                    background: linear-gradient(45deg, #4ecdc4, #556270);
-                    opacity: 0.15;
-                    animation: float 18s infinite ease-in-out reverse;
-                    filter: blur(20px);
-                "></div>
-                <div style="
-                    position: absolute;
-                    top: 50%;
-                    left: 60%;
-                    width: 200px;
-                    height: 200px;
-                    border-radius: 50%;
-                    background: linear-gradient(45deg, #c2e59c, #64b3f4);
-                    opacity: 0.1;
-                    animation: pulse 8s infinite ease-in-out;
-                    filter: blur(10px);
-                "></div>
-            </div>
+        }
 
-            <!-- Floating Particles -->
-            <div class="particles" style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                z-index: 1;
-            ">
-                <div style="
-                    position: absolute;
-                    top: 20%;
-                    left: 15%;
-                    width: 8px;
-                    height: 8px;
-                    border-radius: 50%;
-                    background: rgba(255, 255, 255, 0.5);
-                    animation: floatParticle 12s infinite ease-in-out;
-                "></div>
-                <div style="
-                    position: absolute;
-                    top: 60%;
-                    left: 80%;
-                    width: 5px;
-                    height: 5px;
-                    border-radius: 50%;
-                    background: rgba(255, 255, 255, 0.4);
-                    animation: floatParticle 15s infinite ease-in-out;
-                "></div>
-                <div style="
-                    position: absolute;
-                    top: 40%;
-                    left: 40%;
-                    width: 6px;
-                    height: 6px;
-                    border-radius: 50%;
-                    background: rgba(255, 255, 255, 0.3);
-                    animation: floatParticle 10s infinite ease-in-out;
-                "></div>
-                <div style="
-                    position: absolute;
-                    top: 70%;
-                    left: 30%;
-                    width: 7px;
-                    height: 7px;
-                    border-radius: 50%;
-                    background: rgba(255, 255, 255, 0.6);
-                    animation: floatParticle 14s infinite ease-in-out;
-                "></div>
-            </div>
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(255, 107, 107, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(78, 205, 196, 0.05) 0%, transparent 50%);
+            animation: patternShift 20s ease-in-out infinite;
+        }
 
-            <!-- Content Container -->
-            <div class="container" style="
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 0 20px;
-                position: relative;
-                z-index: 2;
-            ">
-                <!-- Section Title -->
-                <div class="section-title" style="
-                    text-align: center;
-                    margin-bottom: 80px;
-                    opacity: 0;
-                    transform: translateY(30px);
-                    animation: fadeInUp 1s forwards 0.5s;
-                ">
-                    <!-- <div class="title-badge" style="
-                        background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
-                        color: white;
-                        font-size: 14px;
-                        font-weight: 600;
-                        padding: 8px 20px;
-                        border-radius: 30px;
-                        display: inline-block;
-                        margin-bottom: 20px;
-                        letter-spacing: 1px;
-                        box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
-                    ">OUR EXPERTISE</div> -->
-                    <h2 style="
-                        font-size: 48px;
-                        font-weight: 700;
-                        background: linear-gradient(135deg, #fff 0%, #c2e59c 100%);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        margin-bottom: 20px;
-                        position: relative;
-                        display: inline-block;
-                        text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-                    ">
-                        Premium Services
-                        <span style="
-                            content: '';
-                            position: absolute;
-                            bottom: -15px;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            width: 100px;
-                            height: 4px;
-                            background: linear-gradient(to right, #ff6b6b, #c2e59c);
-                            border-radius: 3px;
-                        "></span>
-                    </h2>
-                    <p style="
-                        color: #d1d5db;
-                        font-size: 18px;
-                        max-width: 600px;
-                        margin: 30px auto 0;
-                        line-height: 1.6;
-                    ">Comprehensive solutions tailored to meet all your real estate and construction needs with excellence</p>
-                </div>
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
 
-                <!-- Services Grid -->
-                <div class="services-grid" style="
-                    display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                    gap: 30px;
-                ">
-                    <!-- Service 1: Construction -->
-                    <div class="service-card" style="
-                        background: rgba(21, 38, 66, 0.7);
-                        border-radius: 20px;
-                        overflow: hidden;
-                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-                        transition: all 0.4s ease;
-                        position: relative;
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                        backdrop-filter: blur(10px);
-                        opacity: 0;
-                        transform: translateY(30px);
-                        animation: fadeInUp 1s forwards 0.7s;
-                    ">
-                        <div class="service-icon" style="
-                            width: 80px;
-                            height: 80px;
-                            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
-                            border-radius: 20px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            margin: 30px auto 20px;
-                            transform: rotate(45deg);
-                            transition: all 0.4s ease;
-                            box-shadow: 0 10px 20px rgba(255, 107, 107, 0.3);
-                        ">
-                            <i class="fas fa-hard-hat" style="
-                                color: white;
-                                font-size: 32px;
-                                transform: rotate(-45deg);
-                                transition: all 0.4s ease;
-                            "></i>
-                        </div>
-                        <div class="service-content" style="padding: 0 30px 40px;">
-                            <div class="service-number" style="
-                                position: absolute;
-                                top: 20px;
-                                left: 30px;
-                                font-size: 60px;
-                                font-weight: 800;
-                                color: #fff;
-                            ">01</div>
-                            <h3 style="
-                                font-size: 24px;
-                                color: #fff;
-                                margin-bottom: 15px;
-                                text-align: center;
-                                position: relative;
-                            ">CONSTRUCTION</h3>
-                            <p style="
-                                color: #d1d5db;
-                                line-height: 1.6;
-                                text-align: center;
-                            ">We bring visions to life with precision-engineered structures designed to withstand the test of time. From meticulous planning to flawless execution.</p>
-                            <!-- <div class="service-cta" style="
-                                text-align: center;
-                                margin-top: 25px;
-                            ">
-                                <a href="#" style="
-                                    color: #ff6b6b;
-                                    text-decoration: none;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    display: inline-flex;
-                                    align-items: center;
-                                    gap: 8px;
-                                    transition: all 0.3s ease;
-                                ">
-                                    Explore Service
-                                    <i class="fas fa-arrow-right" style="
-                                        transition: transform 0.3s ease;
-                                    "></i>
-                                </a>
-                            </div> -->
-                        </div>
-                        <div class="hover-effect" style="
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 5px;
-                            background: linear-gradient(to right, #ff6b6b, #ff8e53);
-                            transform: scaleX(0);
-                            transform-origin: left;
-                            transition: transform 0.3s ease;
-                        "></div>
-                    </div>
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(40px);
+            opacity: 0.4;
+        }
 
-                    <!-- Service 2: Real Estate -->
-                    <div class="service-card" style="
-                        background: rgba(21, 38, 66, 0.7);
-                        border-radius: 20px;
-                        overflow: hidden;
-                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-                        transition: all 0.4s ease;
-                        position: relative;
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                        backdrop-filter: blur(10px);
-                        opacity: 0;
-                        transform: translateY(30px);
-                        animation: fadeInUp 1s forwards 0.9s;
-                    ">
-                        <div class="service-icon" style="
-                            width: 80px;
-                            height: 80px;
-                            background: linear-gradient(135deg, #4ecdc4 0%, #556270 100%);
-                            border-radius: 20px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            margin: 30px auto 20px;
-                            transform: rotate(45deg);
-                            transition: all 0.4s ease;
-                            box-shadow: 0 10px 20px rgba(78, 205, 196, 0.3);
-                        ">
-                            <i class="fas fa-building" style="
-                                color: white;
-                                font-size: 32px;
-                                transform: rotate(-45deg);
-                                transition: all 0.4s ease;
-                            "></i>
-                        </div>
-                        <div class="service-content" style="padding: 0 30px 40px;">
-                            <div class="service-number" style="
-                                position: absolute;
-                                top: 20px;
-                                left: 30px;
-                                font-size: 60px;
-                                font-weight: 800;
-                                color: #fff;
-                            ">02</div>
-                            <h3 style="
-                                font-size: 24px;
-                                color: #fff;
-                                margin-bottom: 15px;
-                                text-align: center;
-                                position: relative;
-                            ">REAL ESTATE</h3>
-                            <p style="
-                                color: #d1d5db;
-                                line-height: 1.6;
-                                text-align: center;
-                            ">Expert real estate solutions tailored to your unique needs. With deep market insights and transparent transactions for profitable decisions.</p>
-                            <!-- <div class="service-cta" style="
-                                text-align: center;
-                                margin-top: 25px;
-                            ">
-                                <a href="#" style="
-                                    color: #4ecdc4;
-                                    text-decoration: none;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    display: inline-flex;
-                                    align-items: center;
-                                    gap: 8px;
-                                    transition: all 0.3s ease;
-                                ">
-                                    Explore Service
-                                    <i class="fas fa-arrow-right" style="
-                                        transition: transform 0.3s ease;
-                                    "></i>
-                                </a>
-                            </div> -->
-                        </div>
-                        <div class="hover-effect" style="
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 5px;
-                            background: linear-gradient(to right, #4ecdc4, #556270);
-                            transform: scaleX(0);
-                            transform-origin: left;
-                            transition: transform 0.3s ease;
-                        "></div>
-                    </div>
+        .shape-1 {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+            top: 10%;
+            left: -10%;
+            animation: floatShape 25s infinite ease-in-out;
+        }
 
-                    <!-- Service 3: Interior Design -->
-                    <div class="service-card" style="
-                        background: rgba(21, 38, 66, 0.7);
-                        border-radius: 20px;
-                        overflow: hidden;
-                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-                        transition: all 0.4s ease;
-                        position: relative;
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                        backdrop-filter: blur(10px);
-                        opacity: 0;
-                        transform: translateY(30px);
-                        animation: fadeInUp 1s forwards 1.1s;
-                    ">
-                        <div class="service-icon" style="
-                            width: 80px;
-                            height: 80px;
-                            background: linear-gradient(135deg, #c2e59c 0%, #64b3f4 100%);
-                            border-radius: 20px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            margin: 30px auto 20px;
-                            transform: rotate(45deg);
-                            transition: all 0.4s ease;
-                            box-shadow: 0 10px 20px rgba(194, 229, 156, 0.3);
-                        ">
-                            <i class="fas fa-couch" style="
-                                color: white;
-                                font-size: 32px;
-                                transform: rotate(-45deg);
-                                transition: all 0.4s ease;
-                            "></i>
-                        </div>
-                        <div class="service-content" style="padding: 0 30px 40px;">
-                            <div class="service-number" style="
-                                position: absolute;
-                                top: 20px;
-                                left: 30px;
-                                font-size: 60px;
-                                font-weight: 800;
-                               color: #fff;
-                            ">03</div>
-                            <h3 style="
-                                font-size: 24px;
-                                color: #fff;
-                                margin-bottom: 15px;
-                                text-align: center;
-                                position: relative;
-                            ">INTERIOR DESIGN</h3>
-                            <p style="
-                                color: #d1d5db;
-                                line-height: 1.6;
-                                text-align: center;
-                            ">Our team of seasoned professionals creates spaces that reflect your personality while meeting functional needs with creativity and practicality.</p>
-                            <!-- <div class="service-cta" style="
-                                text-align: center;
-                                margin-top: 25px;
-                            ">
-                                <a href="#" style="
-                                    color: #c2e59c;
-                                    text-decoration: none;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    display: inline-flex;
-                                    align-items: center;
-                                    gap: 8px;
-                                    transition: all 0.3s ease;
-                                ">
-                                    Explore Service
-                                    <i class="fas fa-arrow-right" style="
-                                        transition: transform 0.3s ease;
-                                    "></i>
-                                </a>
-                            </div> -->
-                        </div>
-                        <div class="hover-effect" style="
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 5px;
-                            background: linear-gradient(to right, #c2e59c, #64b3f4);
-                            transform: scaleX(0);
-                            transform-origin: left;
-                            transition: transform 0.3s ease;
-                        "></div>
-                    </div>
+        .shape-2 {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(45deg, #4ecdc4, #44a08d);
+            top: 60%;
+            right: -5%;
+            animation: floatShape 30s infinite ease-in-out reverse;
+        }
 
-                    <!-- Service 4: Documentation -->
-                    <div class="service-card" style="
-                        background: rgba(21, 38, 66, 0.7);
-                        border-radius: 20px;
-                        overflow: hidden;
-                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-                        transition: all 0.4s ease;
-                        position: relative;
-                        border: 1px solid rgba(255, 255, 255, 0.1);
-                        backdrop-filter: blur(10px);
-                        opacity: 0;
-                        transform: translateY(30px);
-                        animation: fadeInUp 1s forwards 1.3s;
-                    ">
-                        <div class="service-icon" style="
-                            width: 80px;
-                            height: 80px;
-                            background: linear-gradient(135deg, #ff8e53 0%, #ff6b6b 100%);
-                            border-radius: 20px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            margin: 30px auto 20px;
-                            transform: rotate(45deg);
-                            transition: all 0.4s ease;
-                            box-shadow: 0 10px 20px rgba(255, 142, 83, 0.3);
-                        ">
-                            <i class="fas fa-file-contract" style="
-                                color: white;
-                                font-size: 32px;
-                                transform: rotate(-45deg);
-                                transition: all 0.4s ease;
-                            "></i>
-                        </div>
-                        <div class="service-content" style="padding: 0 30px 40px;">
-                            <div class="service-number" style="
-                                position: absolute;
-                                top: 20px;
-                                left: 30px;
-                                font-size: 60px;
-                                font-weight: 800;
-                                color: #fff;
-                            ">04</div>
-                            <h3 style="
-                                font-size: 24px;
-                                color: #fff;
-                                margin-bottom: 15px;
-                                text-align: center;
-                                position: relative;
-                            ">DOCUMENTATION</h3>
-                            <p style="
-                                color: #d1d5db;
-                                line-height: 1.6;
-                                text-align: center;
-                            ">End-to-end support with legal and regulatory processes including pre-registration documentation and post-registration formalities.</p>
-                            <!-- <div class="service-cta" style="
-                                text-align: center;
-                                margin-top: 25px;
-                            ">
-                                <a href="#" style="
-                                    color: #ff8e53;
-                                    text-decoration: none;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    display: inline-flex;
-                                    align-items: center;
-                                    gap: 8px;
-                                    transition: all 0.3s ease;
-                                ">
-                                    Explore Service
-                                    <i class="fas fa-arrow-right" style="
-                                        transition: transform 0.3s ease;
-                                    "></i>
-                                </a>
-                            </div> -->
-                        </div>
-                        <div class="hover-effect" style="
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 5px;
-                            background: linear-gradient(to right, #ff8e53, #ff6b6b);
-                            transform: scaleX(0);
-                            transform-origin: left;
-                            transition: transform 0.3s ease;
-                        "></div>
-                    </div>
-                </div>
-            </div>
+        .shape-3 {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(45deg, #c2e59c, #64b3f4);
+            bottom: 20%;
+            left: 20%;
+            animation: floatShape 35s infinite ease-in-out;
+        }
 
-            <!-- Animation Keyframes -->
-            <style>
-                @keyframes fadeInUp {
-                    from {
-                        opacity: 0;
-                        transform: translateY(30px);
-                    }
-                    to {
-                        opacity: 1;
-                        transform: translateY(0);
-                    }
-                }
-                
-                @keyframes float {
-                    0%, 100% {
-                        transform: translateY(0) rotate(0deg);
-                    }
-                    33% {
-                        transform: translateY(-20px) rotate(5deg);
-                    }
-                    66% {
-                        transform: translateY(20px) rotate(-5deg);
-                    }
-                }
-                
-                @keyframes floatParticle {
-                    0%, 100% {
-                        transform: translateY(0) translateX(0);
-                        opacity: 0.2;
-                    }
-                    25% {
-                        transform: translateY(-20px) translateX(15px);
-                        opacity: 0.5;
-                    }
-                    50% {
-                        transform: translateY(10px) translateX(-15px);
-                        opacity: 0.7;
-                    }
-                    75% {
-                        transform: translateY(-10px) translateX(-10px);
-                        opacity: 0.3;
-                    }
-                }
-                
-                @keyframes pulse {
-                    0%, 100% {
-                        transform: scale(1);
-                        opacity: 0.08;
-                    }
-                    50% {
-                        transform: scale(1.2);
-                        opacity: 0.12;
-                    }
-                }
-                
-                .service-card:hover {
-                    transform: translateY(-15px) scale(1.02);
-                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-                }
-                
-                .service-card:hover .hover-effect {
-                    transform: scaleX(1);
-                }
-                
-                .service-card:hover .service-icon {
-                    transform: rotate(0deg);
-                    border-radius: 50%;
-                }
-                
-                .service-card:hover .service-icon i {
-                    transform: rotate(0deg);
-                }
-                
-                .service-cta a:hover {
-                    gap: 12px;
-                }
-                
-                .service-cta a:hover i {
-                    transform: translateX(5px);
-                }
-                
-                /* Responsive Design */
-                @media (max-width: 1024px) {
-                    .section-title h2 {
-                        font-size: 36px;
-                    }
-                }
-                
-                @media (max-width: 768px) {
-                    .services-section {
-                        padding: 60px 0;
-                    }
-                    
-                    .section-title h2 {
-                        font-size: 32px;
-                    }
-                    
-                    .services-grid {
-                        gap: 20px;
-                    }
-                }
-                
-                @media (max-width: 480px) {
-                    .section-title h2 {
-                        font-size: 28px;
-                    }
-                    
-                    .service-content {
-                        padding: 0 20px 30px;
-                    }
-                }
-            </style>
-        </section>
-    </div>
-    
+        .shape-4 {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(45deg, #ffecd2, #fcb69f);
+            top: 30%;
+            left: 70%;
+            animation: floatShape 20s infinite ease-in-out reverse;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .header-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .main-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .title-highlight {
+            display: block;
+            background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #c2e59c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-subtitle {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .service-item {
+            position: relative;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px;
+            display: grid;
+            grid-template-columns: auto auto 1fr auto;
+            align-items: center;
+            gap: 30px;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(20px);
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .service-item:hover {
+            transform: translateY(-8px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .service-number {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            opacity: 0.8;
+        }
+
+        .service-icon {
+            position: relative;
+            width: 80px;
+            height: 80px;
+        }
+
+        .icon-wrapper {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(78, 205, 196, 0.2));
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            transition: all 0.4s ease;
+        }
+
+        .icon-wrapper i {
+            font-size: 2rem;
+            color: #fff;
+            transition: all 0.4s ease;
+        }
+
+        .icon-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120px;
+            height: 120px;
+            background: radial-gradient(circle, rgba(255, 107, 107, 0.3), transparent 70%);
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .service-content {
+            flex: 1;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .service-description {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .service-features {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .feature-tag {
+            padding: 4px 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .service-arrow {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .service-arrow i {
+            color: #fff;
+            font-size: 1.2rem;
+            transition: transform 0.4s ease;
+        }
+
+        .service-bg-effect {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #c2e59c);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s ease;
+        }
+
+        /* Hover Effects */
+        .service-item:hover .icon-glow {
+            opacity: 1;
+        }
+
+        .service-item:hover .icon-wrapper {
+            transform: rotate(-10deg) scale(1.1);
+        }
+
+        .service-item:hover .service-arrow {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        .service-item:hover .service-arrow i {
+            transform: translateX(5px);
+        }
+
+        .service-item:hover .service-bg-effect {
+            transform: scaleX(1);
+        }
+
+        /* Service-specific colors */
+        .service-item[data-service="construction"]:hover .icon-wrapper {
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.3), rgba(255, 142, 83, 0.3));
+        }
+
+        .service-item[data-service="realestate"]:hover .icon-wrapper {
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.3), rgba(68, 160, 141, 0.3));
+        }
+
+        .service-item[data-service="interior"]:hover .icon-wrapper {
+            background: linear-gradient(135deg, rgba(194, 229, 156, 0.3), rgba(100, 179, 244, 0.3));
+        }
+
+        .service-item[data-service="documentation"]:hover .icon-wrapper {
+            background: linear-gradient(135deg, rgba(255, 142, 83, 0.3), rgba(255, 107, 107, 0.3));
+        }
+
+        /* Animations */
+        @keyframes floatShape {
+            0%, 100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            25% {
+                transform: translate(30px, -30px) rotate(90deg);
+            }
+            50% {
+                transform: translate(-20px, -60px) rotate(180deg);
+            }
+            75% {
+                transform: translate(-40px, -20px) rotate(270deg);
+            }
+        }
+
+        @keyframes patternShift {
+            0%, 100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .services-section {
+                padding: 80px 0;
+            }
+
+            .service-item {
+                padding: 30px;
+                gap: 20px;
+            }
+
+            .service-number {
+                font-size: 2.5rem;
+            }
+
+            .service-icon {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services-section {
+                padding: 60px 0;
+            }
+
+            .section-header {
+                margin-bottom: 60px;
+            }
+
+            .service-item {
+                grid-template-columns: auto 1fr auto;
+                grid-template-rows: auto auto;
+                padding: 25px;
+                gap: 20px;
+            }
+
+            .service-number {
+                grid-row: 1 / 3;
+                font-size: 2rem;
+            }
+
+            .service-icon {
+                width: 60px;
+                height: 60px;
+            }
+
+            .service-content {
+                grid-column: 2;
+                grid-row: 1;
+            }
+
+            .service-features {
+                grid-column: 2;
+                grid-row: 2;
+            }
+
+            .service-arrow {
+                grid-column: 3;
+                grid-row: 1 / 3;
+                width: 40px;
+                height: 40px;
+            }
+
+            .service-title {
+                font-size: 1.3rem;
+            }
+
+            .service-description {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .service-item {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto auto;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .service-number,
+            .service-icon,
+            .service-content,
+            .service-arrow {
+                grid-column: 1;
+            }
+
+            .service-number {
+                grid-row: 1;
+                font-size: 1.8rem;
+                margin-bottom: 10px;
+            }
+
+            .service-icon {
+                grid-row: 2;
+                margin: 0 auto 20px;
+            }
+
+            .service-content {
+                grid-row: 3;
+            }
+
+            .service-arrow {
+                grid-row: 4;
+                margin: 20px auto 0;
+            }
+
+            .service-features {
+                justify-content: center;
+                margin-top: 15px;
+            }
+
+            .feature-tag {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+    </section>
+
+
 
 
         
@@ -1494,6 +1443,45 @@
         <!--Scroll to top-->
         <button class="scroll-top scroll-to-target" data-target="html"><i class="flaticon-up-arrow-1"></i></button>
     </div>
+
+
+    <script>
+        // Add intersection observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Initialize animations
+        document.addEventListener('DOMContentLoaded', () => {
+            const serviceItems = document.querySelectorAll('.service-item');
+            
+            serviceItems.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(50px)';
+                item.style.transition = `all 0.8s cubic-bezier(0.4, 0, 0.2, 1) ${index * 0.1}s`;
+                observer.observe(item);
+            });
+
+            // Add click handlers for service items
+            serviceItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const serviceName = item.dataset.service;
+                    console.log(`Clicked on ${serviceName} service`);
+                    // Add your navigation logic here
+                });
+            });
+        });
+    </script>
 
 
     <!-- jequery plugins -->
