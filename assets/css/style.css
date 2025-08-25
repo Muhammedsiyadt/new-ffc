@@ -30,6 +30,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
   @media (min-width:1200px) {
   .container {
     max-width: 1170px;
@@ -13113,6 +13114,7 @@ div#mCSB_1_container{
 /* Navigation link colors - ensure they're visible on blue background */
 .main-menu .navigation > li > a{
   color: #000; /* White text on blue background */
+  font-family:' Chronicle Display XLight';
 }
 
 .main-menu .navigation > li > a:hover{
