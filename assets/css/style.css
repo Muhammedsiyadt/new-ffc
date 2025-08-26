@@ -13091,10 +13091,8 @@ div#mCSB_1_container{
   z-index: 999;
   opacity: 1;
   visibility: visible;
-  /* background: rgba(255, 255, 255, 0.1); */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background: rgba(21,21,21,0.3);
+  
 }
 
 .fixed-header .sticky-header img{
@@ -13113,7 +13111,7 @@ div#mCSB_1_container{
 
 /* Navigation link colors - ensure they're visible on blue background */
 .main-menu .navigation > li > a{
-  color: #000; /* White text on blue background */
+  color: #fff; /* White text on blue background */
   font-family:' Chronicle Display XLight';
 }
 
